@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.custom-bg-color {
+  background-color: #000; /* Change to your desired background color */
+  color: #fff;
+}
+
+.custom-bg-color .navbar-brand img {
+  max-height: 40px; /* Adjust the height of the logo as needed */
+}
+
+.custom-bg-color .navbar-nav .nav-link {
+  color: #fff; /* White color for navbar links */
+}
+
+.footer-link-color {
+  color: #a9a9a9;
+}
+
+.custom-bg-color .navbar-toggler-icon {
+  background-color: #fff; /* White color for navbar toggler icon */
+}
+
+.home_icon {
+  width: 20px;
+}
