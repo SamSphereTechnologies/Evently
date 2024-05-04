@@ -66,7 +66,33 @@ body {
 .home_icon {
   width: 20px;
 }
-
-.menu_color {
-  background-color: #eeeeee;
+.btn-ticket{
+  border: 0px ; 
+  background-color: #FFE047; 
+  font-weight: 600; 
+  padding: 15px 40px 15px 40px;
+  border-radius: 10px;
+}
+.btn-ticket:hover{
+  background-color: #fad207; 
+}
+.btn-contact{
+  border-radius: 5px; border:1px solid #2B293D; background-color: white; font-size: 12px; font-weight: 600;
+}
+.btn-contact:hover{
+  background-color: #2B293D; 
+  color: white;
+}
+.btn-follow{
+  border-radius: 5px; border:1px solid #2B293D; color: white; font-size: 12px; font-weight: 500; background-color: #2B293D;
+}
+.btn-follow:hover{
+  background-color: white; 
+  color: #2B293D;
+}
+.tags{
+  padding: 4px 8px 4px 8px;
+  
+  border-radius: 50px ;
+  background-color: #F8F7FA;
 }
