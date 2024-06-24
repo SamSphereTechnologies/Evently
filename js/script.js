@@ -13,4 +13,4 @@ var month = months[today.getMonth()];
 var year = today.getFullYear();
 // Display the date
 var dateDisplay = document.getElementById("dateDisplay");
-dateDisplay.textContent = dayOfWeek + ", " + dayOfMonth + " " + month + " " + year;
+dateDisplay.textContent = dayOfWeek + ", " + dayOfMonth + "" + month + " " + year;
